@@ -2,7 +2,7 @@ from fastapi import FastAPI, Depends
 import os
 import random
 
-# Test comment. This has no impact on the unit tests
+# Test comment. This has no impact on the unit tests2
 
 app = FastAPI(
     title="DevOps Demo App",
@@ -57,4 +57,5 @@ def read_root():
         "available_endpoints": ["/health", "/version", "/env", "/tips"]
 
     }
+
 
